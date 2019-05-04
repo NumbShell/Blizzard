@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title= title
+    script(src="/javascripts/jquery-3.3.1.min.js")
+    script(src="/javascripts/bootstrap.min.js")
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')    
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    //div(class="container-fluid")
+      div(class="row navbar__background")
+        div(class="container")
+          nav(class="navbar  navbar-expand-lg header-menu")
+            ul(class="navbar-nav header-menu-items")
+              li(class="nav-item menu-item__logo")
+                a(hreF="#" class="nav-link")
+                  img(src="images/Blizzard_Logo.png")
+              li(class="nav-item menu-item")
+                a(hreF="#" class="nav-link") Games
+              li(class="nav-item menu-item")
+                a(hreF="#" class="nav-link") Shop
+              li(class="nav-item menu-item")
+                a(hreF="#" class="nav-link") News
+              li(class="nav-item menu-item")
+                a(hreF="#" class="nav-link") Esports
+            ul(class="navbar-nav header-menu-items")
+              li(class="nav-item menu-item")
+                a(hreF="#" class="nav-link") Support
+              li(class="nav-item menu-item")
+                a(hreF="#" class="nav-link") My Account
+    block content

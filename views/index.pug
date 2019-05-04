@@ -1,0 +1,262 @@
+extends layout
+
+block content
+  div(id="carousel" class="carousel slide row main-panel" data-ride="carousel")
+    ol(class="carousel-indicators")
+      li(data-target="#carousel" data-slide-to="0" class="active")
+      li(data-target="#carousel" data-slide-to="1")
+      li(data-target="#carousel" data-slide-to="2")
+    div(class="carousel-inner main-panel-inner")
+      div(class="carousel-item panel active")
+        div(class="col-md-12 panel-item")
+          div(class="panel-background")
+            div(class="panel-background__content")
+              div(class="col-md-6")
+                img(src="images/wow_logo.png")
+                h1(class="panel-content__title") Coming August 14
+                div(class="hero-button")
+                  a(href="#" class="hero-button__text") Learn More
+      div(class="carousel-item panel")
+        div(class="col-md-12 panel-item")
+          div(class="panel-background" style="background-image: url(http://localhost:3010/images/bg_02.jpg);")
+            div(class="panel-background__content")
+              div(class="col-md-6")
+                img(src="images/hs_logo.png")
+                h1(class="panel-content__title") Something Wicked This Way Comes
+                div(class="hero-button")
+                  a(href="#" class="hero-button__text") Learn More
+      div(class="carousel-item panel")
+        div(class="col-md-12 panel-item")
+          div(class="panel-background" style="background-image: url(http://localhost:3010/images/bg_08.jpg);")
+            div(class="panel-background__content")
+              div(class="col-md-6")
+                img(src="images/hot_logo.png")
+                h1(class="panel-content__title") Free Legendary Loot
+                div(class="hero-button")
+                  a(href="#" class="hero-button__text") Learn More
+      a(class="carousel-control-prev" href="#carousel" role="button" data-slide="prev")
+        span(class="carousel-control-prev-icon" aria-hidden="true")
+      a(class="carousel-control-next" href="#carousel" role="button" data-slide="next")
+        span(class="carousel-control-next-icon" aria-hidden="true")
+  div(class="container-fluid")
+    div(class="row pane")
+      div(class="col-md-12 pane-background-container")
+        div(class="pane__background")
+      div(class="col-md-12 pane-content")
+        div(class="container")
+          div(class="col-md-12 pane-content-scrollbar")
+            div(class="pane-content-scrollbar__header")
+              h2(style="display: inline-block;") Games
+              a(href="#" style="margin-left: 15px;") View all games
+            h5(class="pane-content-blizzard") Blizzard
+            div(class="row")
+              div(class="col-md-2 pane-content__item")
+                a(href="#" class="pane-content-link")
+                  div(class="pane-content__popup")
+                    div(class="pane-content-popup-content")
+                      div(class="hero-button")
+                        a(href="#" class="hero-button__text") Learn More
+                      div(class="pane-content-popup-content__text")
+                        a(href="#" class="link")
+                          note Shop Now
+                        br
+                        a(href="#" class="link")
+                          note Try Free
+                  div(class="pane-content__img" style="background-image: url(http://localhost:3010/images/pane_item_01.jpg);")
+              div(class="col-md-2 pane-content__item")
+                a(href="#" class="pane-content-link")
+                  div(class="pane-content__popup")
+                    div(class="pane-content-popup-content")
+                      div(class="hero-button")
+                        a(href="#" class="hero-button__text") Learn More
+                      div(class="pane-content-popup-content__text")
+                        a(href="#" class="link")
+                          note Play Free
+                  div(class="pane-content__img" style="background-image: url(http://localhost:3010/images/pane_item_02.jpg);")
+              div(class="col-md-2 pane-content__item")
+                a(href="#" class="pane-content-link")
+                  div(class="pane-content__popup")
+                    div(class="pane-content-popup-content")
+                      div(class="hero-button")
+                        a(href="#" class="hero-button__text") Learn More
+                      div(class="pane-content-popup-content__text")
+                        a(href="#" class="link")
+                          note Play Free
+                  div(class="pane-content__img" style="background-image: url(http://localhost:3010/images/pane_item_03.jpg);")
+              div(class="col-md-2 pane-content__item")
+                a(href="#" class="pane-content-link")
+                  div(class="pane-content__popup")
+                    div(class="pane-content-popup-content")
+                      div(class="hero-button")
+                        a(href="#" class="hero-button__text") Learn More
+                      div(class="pane-content-popup-content__text")
+                        a(href="#" class="link")
+                          note Shop Now
+                          br
+                          note Try Free
+                  div(class="pane-content__img" style="background-image: url(http://localhost:3010/images/pane_item_04.jpg);")
+              div(class="col-md-2 pane-content__item")
+                a(href="#" class="pane-content-link")
+                  div(class="pane-content__popup")
+                    div(class="pane-content-popup-content")
+                      div(class="hero-button")
+                        a(href="#" class="hero-button__text") Learn More
+                      div(class="pane-content-popup-content__text")
+                        a(href="#" class="link")
+                          note Shop Now
+                  div(class="pane-content__img" style="background-image: url(http://localhost:3010/images/pane_item_05.jpg);")
+              div(class="col-md-2 pane-content__item")
+                a(href="#" class="pane-content-link")
+                  div(class="pane-content__popup")
+                    div(class="pane-content-popup-content")
+                      div(class="hero-button")
+                        a(href="#" class="hero-button__text") Learn More
+                      div(class="pane-content-popup-content__text")
+                        a(href="#" class="link")
+                          note Play Free
+                  div(class="pane-content__img" style="background-image: url(http://localhost:3010/images/pane_item_06.jpg);")
+              //div(class="col-md-2 pane-content__item")
+                a(href="#" class="pane-content-link")
+                  div(class="pane-content__popup")
+                    div(class="pane-content-popup-content")
+                      div(class="hero-button")
+                        a(href="#" class="hero-button__text") Learn More
+                      div(class="pane-content-popup-content__text")
+                        a(href="#" class="link")
+                          note Play Free
+                  div(class="pane-content__img" style="background-image: url(http://localhost:3010/images/pane_item_07.jpg);")
+      div(class="col-md-12 justify-content-around pane-navbar")
+        ul(class="pane-navbar-wrapper")
+          li(class="pane-navbar-item-li")
+            div(class="col pane-navbar-item") All games, one app: 
+              a(href="#") Blizzard Battle.net Desktop App
+          li(class="pane-navbar-item-li")
+            div(class="col pane-navbar-item") Stay connected:
+              a(href="#")  Blizzard Battle.net Mobile App
+  
+  div(class="container-fluid bg-primary content-stories-bg")
+    div(class="container")
+      div(class="col-md-12")
+        div(class="row content-stories")
+          div(class="col-md-8")
+            div(class="row content-stories-wrapper")
+              h1(class="content-stories__title") Top Stories
+              div(class="content-stories__link")
+                a(href="#") View all news
+            div(class="row content-stories-main")
+              div(class="col-md-4 content-stories-main__description")
+                note News
+                h4 Overwatch Archives - New Seasonal Event Now Live
+                div(class="hero-button")
+                  a(href="#" class="hero-button__text") Learn More
+              div(class="col-md-8 content-stories-main-img-container")
+                div(class="content-stories-main__image")
+            div(class="col-md-12 mt-4 content-array")
+              div(class="row")
+                div(class="col-md-4 card-wrapper")
+                  div(class="row card-item")
+                    div(class="col-md-12 card-image")
+                    div(class="col-md-12 card-item__content")
+                      note Blizzcon
+                      h5 Get Ready For Blizzcon@ 2018
+                div(class="col-md-4 card-wrapper")
+                  div(class="row card-item")
+                    div(class="col-md-12 card-image" style="background-image: url(http://localhost:3010/images/bg_05.jpg);")
+                    div(class="col-md-12 card-item__content")
+                      note News
+                      h5 Watch Overwatch League, Get Leauge Tokens
+                div(class="col-md-4 card-wrapper")
+                  div(class="row card-item")
+                    div(class="col-md-12 card-image" style="background-image: url(http://localhost:3010/images/bg_06.jpg);")
+                    div(class="col-md-12 card-item__content")
+                      note News
+                      h5 New Rewards For Twitch Prime Members!
+          div(class="col-md-4 content-info")
+            h1(class="content-stories__title") Upcoming Events
+            ul(class="content-info-list")
+              li(class="content-info-list__item")
+                div(class="row")
+                  div(class="col-md-4") 
+                    h4(class="content-info-list__date") APR 9-16
+                  div(class="col-md-8")
+                    h5 HGC League Play Week 9
+              li(class="content-info-list__item")
+                div(class="row")
+                  div(class="col-md-4")
+                    h4(class="content-info-list__date") APR 9-16
+                  div(class="col-md-8")
+                    h5 HGC League Play Week 9
+              li(class="content-info-list__item")
+                div(class="row")
+                  div(class="col-md-4") 
+                    h4(class="content-info-list__date") APR 9-16
+                  div(class="col-md-8")
+                    h5 HGC League Play Week 9
+              li(class="content-info-list__item")
+                div(class="row")
+                  div(class="col-md-4") 
+                    h4(class="content-info-list__date") APR 9-16
+                  div(class="col-md-8")
+                    h5 HGC League Play Week 9
+              li(class="content-info-list__item")
+                div(class="row")
+                  div(class="col-md-4") 
+                    h4(class="content-info-list__date") APR 9-16
+                  div(class="col-md-8")
+                    h5 HGC League Play Week 9
+              li(class="content-info-list__desc") Times are shown in CEST
+  div(class="offers-container")
+    div(class="carousel slide offers-slideshow" id="offers-slideshow" data-ride="carousel" style="height: 100%;")
+      div(class="carousel-inner" style="height: 100%;")
+        div(class="carousel-item active" style="height: 100%;")
+          div(class="offers-container__background")
+        div(class="carousel-item" style="height: 100%;")
+          div(class="offers-container__background" style="background-image: url(http://localhost:3010/images/offers_01.jpg);")
+      div(class="offers-container__content")
+        h1(class="offers-container__content-title") Create Worlds
+        p Learn more about Careers at Blizzard
+        div(class="hero-button")
+          a(href="#" class="hero-button__text") Explore Careers
+          
+  div(class="footer-container")
+    div(class="footer-container-content")
+      img(class="footer-container-content__logo" src="images/Blizzard_Entertainment_Logo.png")
+      ul(class="footer-container-content__list")
+        li(class="footer-container-content__item") 
+          a(href="#" class="footer-content-item__link") Careers
+        li(class="footer-container-content__item") 
+          a(href="#" class="footer-content-item__link") About
+        li(class="footer-container-content__item") 
+          a(href="#" class="footer-content-item__link") Support
+        li(class="footer-container-content__item") 
+          a(href="#" class="footer-content-item__link") Contact Us
+        li(class="footer-container-content__item") 
+          a(href="#" class="footer-content-item__link") Press
+        li(class="footer-container-content__item") 
+          a(href="#" class="footer-content-item__link") API
+      note(class="footer-container-content__note") ©2018 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED.
+        | All trademarks referenced herein are the properties of their respective owners.
+      ul(class="footer-container-content__list")
+        li(class="footer-container-content__item") 
+          a(href="#" class="footer-content-item__link") Privacy 
+        li(class="footer-container-content__item") 
+          a(href="#" class="footer-content-item__link") Terms
+    
+  script.
+    $(document).ready(function() {
+      console.log("Document Loaded.");
+      
+      $('.carousel').carousel();
+      
+      
+      $(".pane-content__item").hover(function() {
+        console.log("Hovering");
+        $(this).find(".pane-content__popup").fadeIn(250);
+      })
+      
+      $(".pane-content__item").mouseleave(function() {
+        console.log("Hovering");
+        $(this).find(".pane-content__popup").fadeOut(100);
+      })
+    })
+      
